@@ -201,14 +201,13 @@ a:hover {
     bottom: 20px;
 }
 
-/* 📱 Responsividade para celular */
 @media (max-width: 768px) {
     .container {
         width: 90%;
         padding: 20px;
         position: relative;
-        min-height: 100vh;  /* 🔥 ocupa 100% da altura da tela */
-        display: flex;      /* garante centralização */
+        min-height: 100vh;  
+        display: flex;     
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -217,7 +216,7 @@ a:hover {
     }
 
     .foto-perfil {
-        width: 550px;
+        width: 200px;
     }
 
     h1 {
@@ -226,8 +225,8 @@ a:hover {
     }
 
     .title {
-        font-size: 18px;
-        margin-bottom: 40px;
+        font-size: 20px;
+        margin-bottom: 30px;
     }
 
     .link {
@@ -236,7 +235,7 @@ a:hover {
     }
 
     .link p {
-        font-size: 18px;
+        font-size: 19px;
         padding-top: 5px;
         text-align: left;
         margin-left: 20px;
@@ -261,7 +260,7 @@ a:hover {
     }
 
     .title {
-        font-size: 16px;
+        font-size: 19px;
     }
 
     .link {
@@ -272,7 +271,7 @@ a:hover {
     }
 
     .link p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .links img {
