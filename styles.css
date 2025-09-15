@@ -266,8 +266,9 @@ a:hover {
     .link {
         
         align-items: center;
-        gap: 10px;
+        gap: 5px;
         text-align: center;
+        padding: 5px 20px;
     }
 
     .link p {
